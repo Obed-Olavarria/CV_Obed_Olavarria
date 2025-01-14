@@ -22,13 +22,12 @@
             <swiper-slide class="testimonial-slide">
               <div class="testimonial-content">
                 <img
-                  src="../assets/caru1.jpg"
+                  src="@/assets/caru1.jpg"
                   alt="Person 1"
                   class="testimonial-image"
                 />
                 <p class="testimonial-comment">
-                  "AccuMOVE exceeded my expectations! The team was professional,
-                  and my move was seamless."
+                  "AccuMOVE exceeded my expectations! The team was professional, and my move was seamless."
                 </p>
                 <h3 class="testimonial-name">John Doe</h3>
               </div>
@@ -38,13 +37,12 @@
             <swiper-slide class="testimonial-slide">
               <div class="testimonial-content">
                 <img
-                  src="../assets/caru2.jpg"
+                  src="@/assets/caru2.jpg"
                   alt="Person 2"
                   class="testimonial-image"
                 />
                 <p class="testimonial-comment">
-                  "Amazing service! Highly recommend AccuMOVE for their dedication
-                  and efficiency."
+                  "Amazing service! Highly recommend AccuMOVE for their dedication and efficiency."
                 </p>
                 <h3 class="testimonial-name">Jane Smith</h3>
               </div>
@@ -54,7 +52,7 @@
             <swiper-slide class="testimonial-slide">
               <div class="testimonial-content">
                 <img
-                  src="../assets/caru3.jpg"
+                  src="@/assets/caru3.jpg"
                   alt="Person 3"
                   class="testimonial-image"
                 />
@@ -75,7 +73,6 @@
   import { Swiper, SwiperSlide } from "swiper/vue";
   import "swiper/css";
   import "swiper/css/navigation";
-  
   
   export default {
     components: {
@@ -190,7 +187,6 @@
     margin-right: auto; /* Centra el párrafo */
   }
   
-  
   /* Nombre del testimonio */
   .testimonial-name {
     font-size: 1.2rem;
@@ -249,6 +245,5 @@
     opacity: 0.5; /* Reducir opacidad cuando están deshabilitadas */
     pointer-events: none; /* Deshabilitar clics */
   }
-  
   </style>
   
