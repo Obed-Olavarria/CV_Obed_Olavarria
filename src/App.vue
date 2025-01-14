@@ -1,12 +1,10 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import Blog from './components/Blog.vue';
 </script>
 
 <template>
   <div>
-    <Blog/>
-    <br><br><br>
+    <
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
