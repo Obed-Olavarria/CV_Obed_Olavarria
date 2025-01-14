@@ -4,5 +4,5 @@ import vue from '@vitejs/plugin-vue'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: 'https://Obed-Olavarria.github.io/Curriculum_Digital_Obed_Olavarria'
+  base: 'https://obed-olavarria.github.io/Curriculum_Digital_Obed_Olavarria/'
 })
