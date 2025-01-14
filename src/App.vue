@@ -1,8 +1,11 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import prueba3 from './components/prueba3.vue';
 </script>
 
 <template>
+  <prueba3/>
+<br><br><br>
   <div>
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
