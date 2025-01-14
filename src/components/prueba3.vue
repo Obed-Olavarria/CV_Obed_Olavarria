@@ -22,7 +22,7 @@
             <swiper-slide class="testimonial-slide">
               <div class="testimonial-content">
                 <img
-                  src="@/assets/caru1.jpg"
+                  :src="caru1"
                   alt="Person 1"
                   class="testimonial-image"
                 />
@@ -37,7 +37,7 @@
             <swiper-slide class="testimonial-slide">
               <div class="testimonial-content">
                 <img
-                  src="@/assets/caru2.jpg"
+                  :src="caru2"
                   alt="Person 2"
                   class="testimonial-image"
                 />
@@ -52,7 +52,7 @@
             <swiper-slide class="testimonial-slide">
               <div class="testimonial-content">
                 <img
-                  src="@/assets/caru3.jpg"
+                  :src="caru3"
                   alt="Person 3"
                   class="testimonial-image"
                 />
@@ -74,6 +74,11 @@
   import "swiper/css";
   import "swiper/css/navigation";
   
+  // Importar imágenes
+  import caru1 from '@/assets/caru1.jpg';
+  import caru2 from '@/assets/caru2.jpg';
+  import caru3 from '@/assets/caru3.jpg';
+  
   export default {
     components: {
       Swiper,
@@ -82,6 +87,10 @@
     setup() {
       return {
         modules: [Autoplay, Navigation],
+        // Definir las imágenes importadas
+        caru1,
+        caru2,
+        caru3
       };
     },
   };
