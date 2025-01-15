@@ -13,6 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Clase para limitar el ancho a 1200px */
+.ancho {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: block; /* Cambiar de flex a block si no necesitas alinear todo al centro */
+
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -24,7 +33,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  padding: 0;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -59,9 +68,7 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
