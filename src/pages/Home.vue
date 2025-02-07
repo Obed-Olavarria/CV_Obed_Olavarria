@@ -103,13 +103,14 @@ export default {
 </script>
 
 <style scoped>
-.home {
-  /* No es necesario cambiar nada aquí */
-}
 
-.home-container {
-  /* No es necesario cambiar nada aquí */
-}
+ /*.home {
+  No es necesario cambiar nada aquí 
+}*/
+
+ /* .home-container {
+ No es necesario cambiar nada aquí 
+}*/
 
 
 .home-presentation {
