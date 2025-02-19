@@ -2,11 +2,12 @@
 <template>
     <div class="card">
       <div class="card-image">
-        <img :src="imageSrc" alt="School Logo" />
+        <img :src="imageSrc" alt="img" />
       </div>
       <div class="card-content">
         <h4>{{ title }}</h4>
         <p>{{ description }}</p>
+        <p>{{ date }}</p>
       </div>
     </div>
   </template>
@@ -18,6 +19,7 @@
       title: String,
       description: String,
       imageSrc: String,
+      date: String,
     },
   };
   </script>
@@ -31,6 +33,7 @@
     text-align: center;
     width: 250px;
     margin: 10px;
+    height: 100%;
   }
   
   .card-image img {
